@@ -2,9 +2,11 @@ import React from 'react'
 import TestmonyAccent from 'assets/images/testimonial-landingpages-frame.jpg'
 import Star from 'elements/Star'
 import Button from 'elements/Button'
+import Fade from 'react-reveal/Fade';
 
 export default function Testimony({data}) {
   return (
+    <Fade bottom>
     <section className='container'>
       <div className="row align-items-center">
         <div className="col-auto" style={{marginRight: 70}}>
@@ -26,7 +28,7 @@ export default function Testimony({data}) {
         </span>
 
         <div>
-          <Button className="btn px-5" style={{marginTop: 40}} hasShadow isPrimary type='link' href='{`/testimonial/${data._id}`}'>
+          <Button className="btn px-5" style={{marginTop: 40}} hasShadow isPrimary type='link' href={`/testimonial/${data._id}`}>
           Read Their Story
           </Button>
         </div>
@@ -34,5 +36,6 @@ export default function Testimony({data}) {
         </div>
       </div>
     </section>
+    </Fade>
   )
 }

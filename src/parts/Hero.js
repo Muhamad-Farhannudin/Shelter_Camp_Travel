@@ -7,6 +7,7 @@ import IconTraveler from 'assets/images/icons/icon_traveler.svg';
 import IconTreasure from 'assets/images/icons/icon_treasure.svg';
 import Button from 'elements/Button'
 import formatNumber from 'utils/formatNumber'
+import Fade from 'react-reveal/Fade';
 
 export default function Hero(props) {
 
@@ -18,6 +19,7 @@ export default function Hero(props) {
     }
 
     return (
+        <Fade bottom>
         <section className='container'>
             <div className="row align-item-center">
                 <div
@@ -123,5 +125,6 @@ export default function Hero(props) {
                 </div>
             </div>
         </section>
+        </Fade>
     );
 }
