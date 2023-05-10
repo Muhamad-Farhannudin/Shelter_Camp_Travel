@@ -1,0 +1,19 @@
+.stars {
+  position: relative;
+  min-width: 200px;
+  display: inline-flex;
+}
+.stars .star {
+  position: absolute;
+  display: inline-flex;
+  -webkit-mask: url(../../assets/images/icons/star.svg) no-repeat center left;
+          mask: url(../../assets/images/icons/star.svg) no-repeat center left;
+}
+.stars .star:not(.placeholder) {
+  z-index: 2;
+  background-color: #FFCC47;
+}
+.stars .star.placeholder {
+  z-index: 1;
+  background-color: #e9ecef;
+}/*# sourceMappingURL=index.css.map */
