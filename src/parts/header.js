@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Button from "../elements/Button";
 import BrandIcon from "../parts/IconText";
-import Fade from 'react-reveal/Fade';
+import { Fade } from "react-reveal";
 
 import { useLocation } from 'react-router-dom'
 
