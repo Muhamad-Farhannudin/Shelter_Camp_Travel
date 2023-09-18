@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f3d4fc3a.css",
+    "main.js": "/static/js/main.15bd7940.js",
+    "static/js/787.696610b0.chunk.js": "/static/js/787.696610b0.chunk.js",
+    "static/media/img-hero.jpg": "/static/media/img-hero.a9c0bb5d2efd2b8b60fe.jpg",
+    "static/media/completed.jpg": "/static/media/completed.3866e5cdc98c62d25402.jpg",
+    "static/media/img-hero-frame.jpg": "/static/media/img-hero-frame.ec47a9d0d89fae2944dc.jpg",
+    "static/media/testimonial-landingpages-frame.jpg": "/static/media/testimonial-landingpages-frame.8eead1b69f81660a2b2e.jpg",
+    "static/media/logo-bca.jpg": "/static/media/logo-bca.9e24154a59de9e382989.jpg",
+    "static/media/logo-bjb.jpg": "/static/media/logo-bjb.88e7eeba829ad2dfef6d.jpg",
+    "static/media/icon_treasure.svg": "/static/media/icon_treasure.b1cbc9354d646281aacdf6f29bc68299.svg",
+    "static/media/icon_cities.svg": "/static/media/icon_cities.0b3d30dd94d0f44b9d12407b2baacb8f.svg",
+    "static/media/icon-calendar.svg": "/static/media/icon-calendar.f11016000c207e42fde69736a20a3462.svg",
+    "static/media/star.svg": "/static/media/star.1b02c41aae7361d48f99.svg",
+    "index.html": "/index.html",
+    "static/media/icon_traveler.svg": "/static/media/icon_traveler.c978913b470dcc2b385446f3fe014976.svg",
+    "main.f3d4fc3a.css.map": "/static/css/main.f3d4fc3a.css.map",
+    "main.15bd7940.js.map": "/static/js/main.15bd7940.js.map",
+    "787.696610b0.chunk.js.map": "/static/js/787.696610b0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3d4fc3a.css",
+    "static/js/main.15bd7940.js"
+  ]
+}
