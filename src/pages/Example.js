@@ -20,9 +20,12 @@ export default class Example extends Component {
       { pageTitle: "Home", pageHref: "" },
       { pageTitle: "House Details", pageHref: "" }
     ];
+
+    const {page, match} = this.props;
+
     return (
       <div className="container">
-        <div> <Breadcrumb data={breadcrumbList} /></div>
+        <div> <Breadcrumb data={breadcrumbList}/></div>
         {/* <div className="row align-items-center justfy-content-center" style={{ height: "100vh" }}>
           <div className="col-auto">
             <InputDate max={30} onChange={this.handleChange} name="value" value={this.state.value} />

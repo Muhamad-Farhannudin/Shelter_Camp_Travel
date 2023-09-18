@@ -1,20 +1,22 @@
 import React from 'react'
-import {BrowserRouter as Router, Route} from 'react-router-dom'
-
+import {Routes, Route} from 'react-router-dom'
+import { ToastContainer } from 'react-toastify';
 import 'assets/scss/style.scss';
 import LandingPage from 'pages/LandingPage';
-import DetailsPage from 'pages/DetailsPage';
+import DetailsPage from 'pages/DetailsPage_';
 import Example from 'pages/Example'
 import Checkout from 'pages/Checkout'
 
 function App() {
   return <div className='App'>
-      <Router>
-        <Route exact path='/' component={LandingPage} />
-        <Route exact path='/properties/:id' component={DetailsPage} />
-        <Route path='/example' component={Example} />
-        <Route path='/checkout' component={Checkout} />
-      </Router>
+      <Routes>
+        <Route exact path='/' element={<LandingPage />} />
+        <Route exact path='/properties/:id' element={<DetailsPage />} />
+        <Route path='/example' element={<Example />} />
+        <Route path='/checkout' element={<Checkout />} />
+      </Routes>
+
+      <ToastContainer></ToastContainer>
     </div>;
 }
 export default App;

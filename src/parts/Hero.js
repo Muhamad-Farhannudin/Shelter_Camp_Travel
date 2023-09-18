@@ -17,9 +17,9 @@ export default function Hero(props) {
   return (
     <Fade bottom>
       <section className="container">
-        <div className="row align-item-center">
+        <div className="row align-items-center">
           <div
-            className="col-auto pr-5"
+            className="col-12 col-lg-auto pr-lg-5 mb-5 mb-lg-0"
             style={{
               width: 530,
             }}
@@ -37,7 +37,7 @@ export default function Hero(props) {
             >
               We provide what you need to enjoy your, holiday with family. Time to make another memorable moments.
             </p>
-            <Button className="btn px-5" hasShadow="hasShadow" isPrimary="isPrimary" onClick={showMostPicked}>
+            <Button className="btn px-5" hasShadow="hasShadow" isPrimary={true} onClick={showMostPicked}>
               Show Me Now
             </Button>
 
@@ -48,29 +48,23 @@ export default function Hero(props) {
               }}
             >
               <div
-                className="col-auto"
-                style={{
-                  marginRight: 35,
-                }}
+                className="col-auto mr-lg-5"
               >
-                <img width="36" height="36" src='/public/images/icon_traveler.svg' alt={`${props.data.travelers} Travelers `} />
+                <img width="36" height="36" src={require('/public/images/icon_traveler.svg').default} alt={`${props.data.travelers} Travelers `} />
                 <h6 className="mt-3">
                   {formatNumber(props.data.travelers)} <span className="text-gray-500 font-weight-light">travelers</span>
                 </h6>
               </div>
               <div
-                className="col-auto"
-                style={{
-                  marginRight: 35,
-                }}
+                className="col-auto mr-lg-5"
               >
-                <img width="36" height="36" src="/assets/images/icons/icon_treasure.svg" alt={`${props.data.treasures} Treasure `} />
+                <img width="36" height="36" src={require('/public/images/icon_treasure.svg').default} alt={`${props.data.treasures} Treasure `} />
                 <h6 className="mt-3">
                   {formatNumber(props.data.treasures)} <span className="text-gray-500 font-weight-light">treasure</span>
                 </h6>
               </div>
-              <div className="col-auto">
-                <img width="36" height="36" src="/assets/images/icons/icon_cities.svg" alt={`${props.data.cities} Cities `} />
+              <div className="col-auto mr-lg-5">
+                <img width="36" height="36" src={require('/public/images/icon_cities.svg').default} alt={`${props.data.cities} Cities `} />
                 <h6 className="mt-3">
                   {formatNumber(props.data.cities)} <span className="text-gray-500 font-weight-light">cities</span>
                 </h6>
@@ -78,29 +72,20 @@ export default function Hero(props) {
             </div>
           </div>
 
-          <div className="col-6 pl-5">
-            <div
-              style={{
-                width: 500,
-                height: 410,
-              }}
-            >
+          <div className="col-12 col-lg-6 pl-lg-5">
+            <div className="hero-image-placeholder">
               <img
                 src={ImageHero}
                 alt="Room with couches"
-                className="img-fluid position-absolute"
+                className="img-fluid"
                 style={{
-                  margin: "-30px 0 0 -30px",
-                  zIndex: 1,
+                  zIndex: 2,
                 }}
               />
               <img
                 src={ImageHeroFrame}
                 alt="Room with couches frame"
-                className="img-fluid position-absolute"
-                style={{
-                  paddingTop: 39,
-                }}
+                className="img-fluid"
               />
             </div>
           </div>
