@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Button from "../elements/Button";
 import BrandIcon from "../parts/IconText";
-import Fade from "react-reveal/Fade";
+// import Fade from "react-reveal/Fade";
 
 import { useLocation } from 'react-router-dom'
 
@@ -15,7 +15,7 @@ export default function Header({isCentered}) {
 
   if(isCentered)
   return (
-    <Fade>
+    <>
       <header className="spacing-sm">
         <div className="container">
           <nav className="navbar navbar-expand-lg navbar-light">
@@ -25,13 +25,13 @@ export default function Header({isCentered}) {
           </nav>
         </div>
       </header>
-    </Fade>
+    </>
   );
 
   const stylingUI = isActive ? { position: "absolute", left: -16, right: -16, padding: "0 16px" } : {};
 
   return (
-    <Fade>
+    <>
     <header className="spacing-sm" style={{zIndex: 10}}>
       <div className="container">
         <nav className="navbar navbar-expand-lg navbar-light">
@@ -67,6 +67,6 @@ export default function Header({isCentered}) {
         </nav>
       </div>
     </header>
-    </Fade>
+    </>
   );
 }
