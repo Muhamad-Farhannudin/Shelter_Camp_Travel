@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 
-import Header from "../parts/Header";
 import Hero from "../parts/Hero";
 import MostPicked from "../parts/MostPicked";
 import Categories from "../parts/Categories";
@@ -9,6 +8,7 @@ import Testimony from "../parts/Testimony";
 import Footer from "../parts/Footer";
 
 import { fetchPage } from "store/actions/page";
+import Header from "parts/Header";
 
 class LandingPage extends Component {
   constructor(props) {
