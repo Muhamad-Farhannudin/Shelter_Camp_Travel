@@ -8,7 +8,7 @@ import Testimony from "../parts/Testimony";
 import Footer from "../parts/Footer";
 
 import { fetchPage } from "store/actions/page";
-import Header from "parts/Header";
+import Headers from '../parts/Header'
 
 class LandingPage extends Component {
   constructor(props) {
@@ -30,7 +30,7 @@ class LandingPage extends Component {
 
     return (
       <>
-        <Header {...this.props}></Header>
+        <Headers {...this.props}></Headers>
         <Hero refMostPicked={this.refMostPicked} data={page.landingPage.hero} />
         <MostPicked refMostPicked={this.refMostPicked} data={page.landingPage.mostPicked} />
         <Categories data={page.landingPage.category} />
