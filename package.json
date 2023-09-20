@@ -92,7 +92,8 @@
     ]
   },
   "devDependencies": {
-    "@testing-library/react": "^12.1.2"
+    "@testing-library/react": "^12.1.2",
+    "eslint": "^8.49.0"
   },
   "jest": {
     "roots": [

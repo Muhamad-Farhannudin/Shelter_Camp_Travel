@@ -1,6 +1,6 @@
 import Button from "elements/Button";
 import { InputDate, InputNumber } from "elements/Form";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate, useParams } from "react-router-dom";
 import { checkoutBooking } from "store/actions/checkout";
