@@ -12,7 +12,7 @@ export default function BookingInformation(props) {
       <div className="row justify-content-center align-items-center">
         <div className="col-12 col-lg-5 border-right py-lg-5 px-5 px-lg-0 mb-5 mb-lg-0" style={{paddingRight: 80}}>
             <Fade>
-                <div className="card">
+                <div className="card px-3">
                     <figure className='img-wrapper' style={{height: 270}}>
                         <img className='img-cover' 
                         src={`${process.env.REACT_APP_HOST}/${ItemDetails.imageId[0].imageUrl}`}
@@ -39,7 +39,7 @@ export default function BookingInformation(props) {
                 </div>
             </Fade>
         </div>
-        <div className="col-12 col-lg-5 py-lg-5 px-5 px-lg-0" style={{paddingLeft: 80}}>
+        <div className="col-12 col-lg-5 ml-4 py-lg-5 px-5 px-lg-0" style={{paddingLeft: 80}}>
             <Fade>
                 <label htmlFor="firstName">First Name</label>
                 <InputText 

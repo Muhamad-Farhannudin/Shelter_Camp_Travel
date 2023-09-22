@@ -32,8 +32,8 @@ class DetailsPage extends Component {
     if(!page[match.params.id]) return null;
     
         const breadcrumb = [
-            {pageTitle: "Home", pageHref: ""},
-            {pageTitle: "House Details", pageHref: ""}
+            {pageTitle: "Home", pageHref: "/"},
+            {pageTitle: "House", pageHref: ""}
         ];
     return (
         <>

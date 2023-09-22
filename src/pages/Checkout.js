@@ -10,8 +10,6 @@ import BookingInformation from "parts/Checkout/BookingInformation";
 import Payment from "parts/Checkout/Payment";
 import Completed from "parts/Checkout/Completed";
 
-import ItemDetails from "json/itemDetails.json";
-
 import { submitBooking } from "store/actions/checkout";
 
 class Checkout extends Component {
@@ -56,7 +54,6 @@ class Checkout extends Component {
     payload.append("accountHolder", data.bankHolder);
     payload.append("bankFrom", data.bankName);
     payload.append("image", data.proofPayment[0]);
-    // payload.append("bankId", checkout.bankId);
 
     this.props
       .submitBooking(payload)

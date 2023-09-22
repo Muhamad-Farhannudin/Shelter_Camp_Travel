@@ -17,15 +17,15 @@ export default function Footer() {
                     <h6 className="mt-2"> For Beginners</h6>
                     <ul className="list-group list-group-flush">
                         <li className="list-group-item">
-                            <Button type='link' href='/register'>
+                            <Button type='link'>
                             New Account</Button>
                         </li>
                         <li className="list-group-item">
-                            <Button type='link' href='/properties'>
+                            <Button type='link'>
                             Start Booking a Room</Button>
                         </li>
                         <li className="list-group-item">
-                            <Button type='link' href='/use-payments'>
+                            <Button type='link'>
                             Use Payments</Button>
                         </li>
                     </ul> 
@@ -34,15 +34,15 @@ export default function Footer() {
                 <h6 className="mt-2">Explore Us</h6>
                     <ul className="list-group list-group-flush">
                         <li className="list-group-item">
-                            <Button type='link' href='/careers'>
+                            <Button type='link'>
                             Our Carrers</Button>
                         </li>
                         <li className="list-group-item">
-                            <Button type='link' href='/privacy'>
+                            <Button type='link'>
                             Privacy</Button>
                         </li>
                         <li className="list-group-item">
-                            <Button type='link' href='/terms'>
+                            <Button type='link'>
                             Terms & Conditions</Button>
                         </li>
                     </ul> 
@@ -51,11 +51,11 @@ export default function Footer() {
                 <h6 className="mt-2">Connect Us</h6>
                     <ul className="list-group list-group-flush">
                         <li className="list-group-item">
-                            <Button isExternal type='link' href='/mailto:Support@staycation.id'>
+                            <Button type='link'>
                             Support@staycation.id</Button>
                         </li>
                         <li className="list-group-item">
-                            <Button isExternal type='link' href='/tel:622122081996'>
+                            <Button type='link'>
                             021-2208-1996</Button>
                         </li>
                         <li className="list-group-item">
