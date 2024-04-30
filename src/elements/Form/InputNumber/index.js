@@ -18,23 +18,28 @@ export default function Number(props) {
   };
 
   const minus = () => {
-    value > min &&
+    if (value > min) {
       onChange({
         target: {
           name: name,
           value: +value - 1,
         },
       });
+    }
   };
+  
   const plus = () => {
-    value < max &&
+    if (value < max) {
       onChange({
         target: {
           name: name,
           value: +value + 1,
         },
       });
+    }
   };
+
+  
   return (
     <div className={["input-number mb-3", props.outerClassName].join(" ")}>
       <div className="input-group">

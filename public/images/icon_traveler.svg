@@ -1,7 +1,7 @@
 <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="1.5" y="14.5" width="27" height="32" rx="6.5" stroke="#152C5B" stroke-width="3"/>
 <path d="M9.5 4C9.5 2.61929 10.6193 1.5 12 1.5H18C19.3807 1.5 20.5 2.61929 20.5 4V14.5H9.5V4Z" stroke="#152C5B" stroke-width="3"/>
-<path d="M8 21V39.5" stroke="#FF498B" stroke-width="3" stroke-linecap="round"/>
-<path d="M22 21V39.5" stroke="#FF498B" stroke-width="3" stroke-linecap="round"/>
-<path d="M15 26V34" stroke="#FF498B" stroke-width="3" stroke-linecap="round"/>
+<path d="M8 21V39.5" stroke="#564229" stroke-width="3" stroke-linecap="round"/>
+<path d="M22 21V39.5" stroke="#564229" stroke-width="3" stroke-linecap="round"/>
+<path d="M15 26V34" stroke="#564229" stroke-width="3" stroke-linecap="round"/>
 </svg>

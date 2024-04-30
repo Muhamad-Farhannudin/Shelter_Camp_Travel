@@ -9,9 +9,9 @@ export default function Header({isCentered}) {
   const [isActive, setActive] = useState(false)
   const location = useLocation()
 
-  const getNavLinkClass = path => {
-    return location.pathname === path ? "active" : "";
-  };
+  // const getNavLinkClass = path => {
+  //   return location.pathname === path ? "active" : "";
+  // };
 
   if(isCentered)
   return (
@@ -28,7 +28,7 @@ export default function Header({isCentered}) {
     </Fade>
   );
 
-  const stylingUI = isActive ? { position: "absolute", left: -16, right: -16, padding: "0 16px" } : {};
+  // const stylingUI = isActive ? { position: "absolute", left: -16, right: -16, padding: "0 16px" } : {};
 
   return (
     <Fade>
@@ -37,10 +37,10 @@ export default function Header({isCentered}) {
         <nav className="navbar navbar-expand-lg navbar-light">
           <BrandIcon />
 
-          <button className="navbar-toggler" type="button" onClick={() => setActive (prev => !prev)}>
+          {/* <button className="navbar-toggler" type="button" onClick={() => setActive (prev => !prev)}>
             <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className={["collapse navbar-collapse", isActive ? "show" : "",].join(" ")}>
+          </button> */}
+          {/* <div className={["collapse navbar-collapse", isActive ? "show" : "",].join(" ")}>
             <ul className="navbar-nav ml-auto bg-white" style={stylingUI}>
               <li className={`nav-item ${getNavLinkClass("/")}`}>
                 <Button className="nav-link" type="link" href="/">
@@ -63,7 +63,7 @@ export default function Header({isCentered}) {
                 </Button>
               </li>
             </ul>
-          </div>
+          </div> */}
         </nav>
       </div>
     </header>

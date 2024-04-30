@@ -105,13 +105,20 @@
   position: relative;
 }
 
+.hero-image-placeholder img:nth-child(2) {
+  position: absolute; /* Menetapkan posisi absolut untuk mengatur posisi frame */
+  top: 70px; /* Menggeser frame ke bawah sebesar 70px */
+  left: 39px; /* Menggeser frame ke kanan sebesar 39px */
+  z-index: -2;
+}
+
 .brand-text-icon {
   font-size: 26px;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
-  color: $primary;
+  color: #66543e;
   &:hover {
-    color: $primary;
+    color: #66543e;
     text-decoration: none;
   }
 }
@@ -150,6 +157,10 @@ header {
 
 section {
   margin-bottom: 70px;
+}
+
+.button-border {
+  border: 2px solid #66543e;
 }
 
 .img-cover {

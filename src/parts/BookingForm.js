@@ -10,12 +10,15 @@ import ButtonSubmitBooking from "../elements/ButtonSubmitBooking"
 class BookingForm extends Component {
   constructor(props) {
     super(props);
+    const today = new Date();
+    const tomorrow = new Date(today);
+    tomorrow.setDate(today.getDate() + 1);
     this.state = {
       data: {
         duration: 1,
         date: {
-          startDate: new Date(),
-          endDate: new Date(),
+          startDate: today,
+          endDate: tomorrow,
           key: "selection",
         },
       },

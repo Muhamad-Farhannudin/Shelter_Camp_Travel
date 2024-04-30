@@ -29,7 +29,7 @@ function BookingForm_() {
 
     if (event.target.name === "duration") {
       startDate = new Date(data.date.startDate);
-      endDate = new Date(data.date.startDate);
+      endDate = new Date(data.date.endDate);
       endDate.setDate(startDate.getDate() + +event.target.value)
       endDate = new Date(endDate)
       

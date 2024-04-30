@@ -10,7 +10,7 @@
   --blue: #007bff;
   --indigo: #3252DF;
   --purple: #6f42c1;
-  --pink: #FF498B;
+  --pink: #564229;
   --red: #E74C3C;
   --orange: #fd7e14;
   --yellow: #FFCC47;
@@ -500,7 +500,7 @@ mark,
 
 code {
   font-size: 87.5%;
-  color: #FF498B;
+  color: #564229;
   word-wrap: break-word;
 }
 a > code {
@@ -9222,7 +9222,7 @@ a.text-purple:hover, a.text-purple:focus {
 }
 
 .text-pink {
-  color: #FF498B !important;
+  color: #564229 !important;
 }
 
 a.text-pink:hover, a.text-pink:focus {
@@ -9553,7 +9553,7 @@ section {
 .card .tag {
   z-index: 3;
   font-size: 0.875rem;
-  background-color: #FF498B;
+  background-color: #564229;
   padding: 0.25rem 1.25rem;
   position: absolute;
   top: 0;

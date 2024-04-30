@@ -1,6 +1,6 @@
 import React from "react";
 
-import ImageHero from "assets/images/img-hero.jpg";
+import ImageHero from "assets/images/shelter/Camping - STAR CAMP.jpg";
 import ImageHeroFrame from "assets/images/img-hero-frame.jpg";
 import Button from "elements/Button";
 import formatNumber from "utils/formatNumber";
@@ -25,9 +25,9 @@ export default function Hero(props) {
             }}
           >
             <h1 className="font-weight-bold line-height-1 mb-3">
-              Forget Busy Work,
+              Explore the Outdoors,
               <br />
-              Start Next Vacation
+              Camp with Comfort
             </h1>
             <p
               className="mb-4 font-weight-light text-gray-500 w-75"
@@ -37,7 +37,7 @@ export default function Hero(props) {
             >
               We provide what you need to enjoy your, holiday with family. Time to make another memorable moments.
             </p>
-            <Button className="btn px-5" hasShadow="hasShadow" isPrimary={true} onClick={showMostPicked}>
+            <Button className="btn px-5 button-border" hasShadow="hasShadow" isPrimary={true} onClick={showMostPicked}>
               Show Me Now
             </Button>
 
